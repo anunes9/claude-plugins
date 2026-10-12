@@ -1,12 +1,21 @@
 {
   "name": "anunes9-claude-plugins",
-  "owner": { "name": "anunes9" },
-  "metadata": { "description": "Claude Code plugins and mods by anunes9" },
+  "owner": {
+    "name": "anunes9"
+  },
+  "metadata": {
+    "description": "Claude Code plugins and mods by anunes9"
+  },
   "plugins": [
     {
       "name": "file-explorer",
       "source": "./plugins/file-explorer",
       "description": "A file explorer pane for the working directory, with a file viewer and copy-path buttons"
+    },
+    {
+      "name": "clean-view",
+      "source": "./plugins/clean-view",
+      "description": "A calm, friendly view: hides tool rows and shows one plain-English checklist of the plan above the prompt"
     }
   ]
 }
