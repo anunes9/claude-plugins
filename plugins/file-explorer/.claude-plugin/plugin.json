@@ -1,0 +1,9 @@
+{
+  "name": "file-explorer",
+  "version": "0.1.0",
+  "description": "A file explorer pane for the working directory, with a file viewer and copy-path buttons",
+  "types": "./types/index.d.ts",
+  "author": {
+    "name": "anunes9"
+  }
+}
